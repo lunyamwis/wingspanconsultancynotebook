@@ -1,0 +1,54 @@
+column_name,description,data_type,example
+doc no,Unique claim/document identifier,Numeric,11087999
+mem id,Unique member identifier,Numeric,3018087
+emp code,Employer code for corporate policies,Numeric,84192
+patient,Patient/member name or ID,String,S
+age or dob,Age or Date of Birth,Integer,1963
+p_relation,Relationship to policyholder,Categorical,Spouse
+p sex,Gender of patient,Categorical,M
+hosp code,Hospital identifier code,Numeric,3332610
+hosp name,Hospital name,String,Nairobi Hospital
+hosp cat,Hospital category,Categorical,Private
+hosp level,Facility level,String,3B
+comprehensive or not,Indicates if cover is comprehensive,Categorical,Yes
+adm date,Admission date,Date,1/1/2025
+dis date,Discharge date,Date,1/5/2025
+los,Length of stay (days),Integer,4
+total_bill,Total billed amount (KES),Numeric,120000
+claim_total,Total claimed amount (KES),Numeric,100000
+case code,Internal case classification,Numeric,3
+icd10 bloc,ICD-10 block grouping,String,N70:N77
+icd10 chap,ICD-10 chapter,Numeric,14
+icd10 code,Specific diagnosis code,String,A01.0
+claim_stage,Stage of claim processing,Categorical,PD
+claim_date,Date claim was filed,Date,1/6/2020
+contract_ref,Policy/contract reference,String,Civil servants
+area name,Geographic area,String,Kisii Branch
+county name,County location,String,Nairobi
+batch_date,Processing batch date,Date,1/7/2025
+quarters,Quarter of year,Categorical,Q1
+financial_year,Financial year,String,2024/2025
+income_band,Income classification,Categorical,Middle
+employment_type,Employment type,Categorical,Formal
+family_size,Number of dependents,Integer,4
+plan_tier,Insurance plan tier,Categorical,Premium
+coverage_limit_kes,Coverage limit in KES,Numeric,500000
+deductible_pct,Deductible percentage,Numeric,10
+claim_frequency,Number of claims per member,Integer,3
+avg_claim_amount,Average claim amount,Float,18254.29268
+total_claims_cost,Total claims cost,Float,36508.58537
+annual_premium,Annual premium paid,Float,33532.90563
+loss_ratio,Claims divided by premium,Float,1.088739096
+profit_margin,Premium minus claims,Numeric,52382.65598
+risk_score,Risk score,Numeric,0.75
+fraud_probability,Fraud likelihood ,Numeric,0.1
+churn_probability,Probability of customer leaving,Numeric,0.3
+nhif_usage,Whether NHIF is used,Categorical,Yes
+county_cost_index,Relative healthcare cost index,Numeric,1.2
+telemedicine_usage,Use of telemedicine,Categorical,No
+mpesa_usage,Use of M-Pesa for payments,Categorical,Yes
+wellness_program,Participation in wellness program,Categorical,Yes
+smoker,Smoking status,Categorical,No
+exercise_frequency,Exercise level,Categorical,Medium
+disease_category,Disease classification group,Categorical,Infectious
+disease_name,Specific disease name,Categorical,Malaria
